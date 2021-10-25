@@ -1,0 +1,36 @@
+git init  = initialize git
+git branch = all branch in repository
+git status = show modified files in working directory, staged for your next commit
+
+git config --global user.name "your_name" = identify your name
+git config --global user.email "your_email" identify your email
+
+git add file_name =  adding file
+git add . = adding all files
+git commit -m "your_commit" = message for adding files
+git log = all commits 
+git log --oneline = can see the commit in oneline
+git log --oneline -n 3 = 3 is the number that you want to see the number of commit 
+git reset --hard commit_number_in_log = to delete commit
+git restore --staged . = to get the unchange state for changes file before commit to repository
+git clean -f = delete the new file
+git clean -fd = delete the new folder
+git branch branch_name = create a new branch
+git branch -D branch_name = delete the whole branch
+git checkout branch_name = move from one branch to another branch
+
+git push -u origin main = push files onto the main
+git push -u origin branch_name/your_task = push files onto the branch
+
+
+ssh key = connect the git repository and our computer
+ssh-keygen = to generate ssh key
+cat~/.ssh/id.pub = to get public key
+
+git clone your_repository_link = copy the repository to our computer
+
+git checkout -b branch_name/your_task = create new branch and move to that branch
+git pull origin branch_name = pull from git
+
+
+
