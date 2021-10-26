@@ -1,5 +1,5 @@
 git init  = initialize git
-git branch = all branch in repository
+git branch = all branches in repository
 git status = show modified files in working directory, staged for your next commit
 
 git config --global user.name "your_name" = identify your name
